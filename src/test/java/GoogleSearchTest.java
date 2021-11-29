@@ -29,6 +29,7 @@ public class GoogleSearchTest {
     void login(){
         System.out.println("login");
         System.out.println("complete");
+        System.out.println("change");
     }
 }
 
