@@ -13,7 +13,7 @@ public class Date {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.farecompare.com/");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         WebElement attValue = driver.findElement(By.xpath("//div[@class='DayPickerInput']/input[@id='depart-date']"));
         attValue.click();
 
